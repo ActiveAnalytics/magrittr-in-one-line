@@ -26,8 +26,8 @@ http://active-analytics.com/blog/magrittr-in-one-line/
 # Paste operator
 
 ```
-`%+%` <- function(x1, x2)paste0(x1, x2)
-"Hello " %+% "World" %+% "! Goodbye " %+% "World!"
+> `%+%` <- function(x1, x2)paste0(x1, x2)
+> "Hello " %+% "World" %+% "! Goodbye " %+% "World!"
 [1] "Hello World! Goodbye World!"
 ```
 
